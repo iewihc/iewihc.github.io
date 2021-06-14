@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Palette | @vuepress/theme-blog</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="Official blog theme for VuePress">
+    
+    <link rel="preload" href="/assets/css/0.styles.23a45b3c.css" as="style"><link rel="preload" href="/assets/js/app.5bcb8972.js" as="script"><link rel="preload" href="/assets/js/2.b94316e6.js" as="script"><link rel="preload" href="/assets/js/11.937b5d71.js" as="script"><link rel="prefetch" href="/assets/js/10.da063a40.js"><link rel="prefetch" href="/assets/js/3.69895d31.js"><link rel="prefetch" href="/assets/js/4.26856938.js"><link rel="prefetch" href="/assets/js/5.4cbfe274.js"><link rel="prefetch" href="/assets/js/6.e4816f92.js"><link rel="prefetch" href="/assets/js/7.75296dd0.js"><link rel="prefetch" href="/assets/js/8.bc3fa293.js"><link rel="prefetch" href="/assets/js/9.01c09078.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.23a45b3c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">@vuepress/theme-blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="/config/" class="nav-link router-link-active">
+  Config
+</a></div> <a href="https://github.com/vuepressjs/vuepress-theme-blog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="/config/" class="nav-link router-link-active">
+  Config
+</a></div> <a href="https://github.com/vuepressjs/vuepress-theme-blog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><a href="/config/" aria-current="page" class="sidebar-link">Options</a></li><li><a href="/config/front-matter.html" class="sidebar-link">Front Matter</a></li><li><a href="/config/palette.html" aria-current="page" class="active sidebar-link">Palette</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="palette"><a href="#palette" class="header-anchor">#</a> Palette</h1> <p>We've mentioned <code>palette.styl</code> in <a href="/#folder-structure">Folder structure</a>, it should be under the <code>styles</code> folder. Its purpose is to override global color settings. With <code>palette.styl</code>, you have the ability to modify not only colors but also layout. Here's what you can configure:</p> <div class="language-stylus extra-class"><pre class="language-stylus"><code><span class="token comment">// colors</span>
+<span class="token variable-declaration"><span class="token variable">$accentColor</span> <span class="token operator">=</span> <span class="token func"><span class="token function">lighten</span><span class="token punctuation">(</span><span class="token hexcode">#4a154b</span><span class="token punctuation">,</span> <span class="token number">50%</span><span class="token punctuation">)</span></span></span>
+
+<span class="token variable-declaration"><span class="token variable">$textColor</span> <span class="token operator">=</span> <span class="token hexcode">#2c3e50</span></span>
+<span class="token variable-declaration"><span class="token variable">$darkTextColor</span> <span class="token operator">=</span> <span class="token hexcode">#000</span></span>
+
+<span class="token variable-declaration"><span class="token variable">$borderColor</span> <span class="token operator">=</span> <span class="token func"><span class="token function">rgba</span><span class="token punctuation">(</span>$darkTextColor<span class="token punctuation">,</span><span class="token operator">.</span><span class="token number">05</span><span class="token punctuation">)</span></span></span>
+<span class="token variable-declaration"><span class="token variable">$darkBorderColor</span> <span class="token operator">=</span> $darkTextColor</span>
+
+<span class="token variable-declaration"><span class="token variable">$codeBgColor</span> <span class="token operator">=</span> $darkTextColor</span>
+
+<span class="token variable-declaration"><span class="token variable">$bgColor</span> <span class="token operator">=</span> <span class="token hexcode">#fff</span></span>
+<span class="token variable-declaration"><span class="token variable">$headerBgColor</span> <span class="token operator">=</span> $bgColor<span class="token punctuation">;</span></span>
+
+<span class="token variable-declaration"><span class="token variable">$footerBgColor</span> <span class="token operator">=</span> $darkTextColor</span>
+<span class="token variable-declaration"><span class="token variable">$footerColor</span> <span class="token operator">=</span> <span class="token hexcode">#828282</span></span>
+
+<span class="token variable-declaration"><span class="token variable">$newsletterBgColor</span> <span class="token operator">=</span> <span class="token hexcode">#f8f8f8</span></span>
+
+<span class="token comment">// layout</span>
+<span class="token variable-declaration"><span class="token variable">$contentWidth</span> <span class="token operator">=</span> <span class="token number">740</span>px</span>
+
+<span class="token comment">// responsive breakpoints</span>
+<span class="token variable-declaration"><span class="token variable">$MQNarrow</span> <span class="token operator">=</span> <span class="token number">959</span>px</span>
+<span class="token variable-declaration"><span class="token variable">$MQMobile</span> <span class="token operator">=</span> <span class="token number">719</span>px</span>
+<span class="token variable-declaration"><span class="token variable">$MQMobileNarrow</span> <span class="token operator">=</span> <span class="token number">419</span>px</span>
+
+<span class="token comment">// code</span>
+<span class="token variable-declaration"><span class="token variable">$lineNumbersWrapperWidth</span> <span class="token operator">=</span> <span class="token number">3.5</span>rem</span>
+<span class="token variable-declaration"><span class="token variable">$codeLang</span> <span class="token operator">=</span> js ts html md vue css sass scss less stylus go java c sh yaml py docker dockerfile makefile</span>
+</code></pre></div><p>Reference:</p> <ul><li><a href="https://vuepress.vuejs.org/config/#styling" target="_blank" rel="noopener noreferrer">palette-styl<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul> <div class="custom-block tip"><p class="custom-block-title">Tip</p> <p>Another easy approach to modify styles is <a href="https://vuepress.vuejs.org/config/#index-styl" target="_blank" rel="noopener noreferrer">index.styl<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>. The extra styles you add has a higher priority than what this theme provides.</p></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/vuepressjs/vuepress-theme-blog/edit/master/docs/config/palette.md" target="_blank" rel="noopener noreferrer">Edit this page on GitHub</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/config/front-matter.html" class="prev">
+        Front Matter
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.5bcb8972.js" defer></script><script src="/assets/js/2.b94316e6.js" defer></script><script src="/assets/js/11.937b5d71.js" defer></script>
+  </body>
+</html>
