@@ -1,12 +1,11 @@
 ---
-title: Writing a vuepress theme 1
-date: 2019-5-6
+title: CICD
+date: 2018-11-7
 tags: 
-  - theme
-  - blog
+  - frontmatter
   - vuepress
 author: ULIVZ
-location: Shanghai  
+location: Hangzhou  
 ---
 
 ## DevOps
