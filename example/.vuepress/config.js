@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'VuePress Blog Example',
+  title: 'iewihc',
   description: 'This is a blog example built by VuePress',
   theme: require.resolve('../../'),
   themeConfig: {
@@ -108,20 +108,20 @@ module.exports = {
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#directories
      */
 
-    // directories:[
-    //   {
-    //     id: 'post',
-    //     dirname: '_posts',
-    //     path: '/',
-    //     itemPermalink: '/:year/:month/:day/:slug',
-    //   },
-    //   {
-    //     id: 'writing',
-    //     dirname: '_writings',
-    //     path: '/',
-    //     itemPermalink: '/:year/:month/:day/:slug',
-    //   },
-    // ],
+    directories:[
+      {
+        id: 'post',
+        dirname: '_posts',
+        path: '/',
+        itemPermalink: '/:year/:month/:day/:slug',
+      },
+      {
+        id: 'writing',
+        dirname: '_writings',
+        path: '/',
+        itemPermalink: '/:year/:month/:day/:slug',
+      },
+    ],
 
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#frontmatters
