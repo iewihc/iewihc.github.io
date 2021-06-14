@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'iewihc',
+  title: 'IEWIHC BLOG',
   description: 'This is a blog example built by VuePress',
   theme: require.resolve('../../'),
   themeConfig: {
