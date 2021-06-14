@@ -2,8 +2,7 @@
 title: CICD
 date: 2018-11-7
 tags: 
-  - frontmatter
-  - vuepress
+  - ci/cd
 author: iewihc
 location: tw  
 ---
