@@ -23,7 +23,7 @@
         <Comment />
       </footer>
     </article>
-    <Toc />
+    <!-- <Toc /> -->
   </div>
 </template>
 

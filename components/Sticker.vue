@@ -6,6 +6,7 @@
     :style="needFloat ? { bottom: `${stickBottom}px` } : undefined"
   >
     <slot></slot>
+    <div>123</div>
   </component>
 </template>
 

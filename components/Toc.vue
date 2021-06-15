@@ -10,6 +10,7 @@
         { active: activeIndex === index },
       ]"
     >
+    <div>123</div>
       <a :href="`#${item.slug}`" :title="item.title">{{ item.title }}</a>
     </div>
   </Sticker>
