@@ -4,7 +4,7 @@
         <title>Iewihc Blog</title>
         <link>https://example.vuepress-theme-blog.ulivz.com/</link>
         <description>This is a blog example built by VuePress</description>
-        <lastBuildDate>Tue, 15 Jun 2021 19:08:39 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Jun 2021 12:44:56 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <item>
@@ -168,6 +168,33 @@ App Iso ...]]></description>
 [F1]的用法。
 
 > [快速]按一個鍵，即複製上一個測試方法的內容，並貼上， ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【vimum】The Chrome Plugin Vimium Introduction]]></title>
+            <link>https://example.vuepress-theme-blog.ulivz.com/2021/06/17/vimum-intro/</link>
+            <guid>https://example.vuepress-theme-blog.ulivz.com/2021/06/17/vimum-intro/</guid>
+            <pubDate>Thu, 17 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[f Link Selection
+k & j 上下移動頁面
+u & d 上下移動頁面
+G 移動至底部
+gg 移動至頂部
+r Refresh
+yy 複製網址頁面
+t 打開新標籤
+yt 複製當前頁面並於另標籤打開
+gi Focus On TexeBox
+H Back TO PREVIOUS
+` ...]]></description>
+            <enclosure url="https://user-images.githubusercontent.com/53833171/122763826-5de1a980-d2d1-11eb-92f5-600191ccf9bb.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[指紋]]></title>
+            <link>https://example.vuepress-theme-blog.ulivz.com/1970/01/01/sth/</link>
+            <guid>https://example.vuepress-theme-blog.ulivz.com/1970/01/01/sth/</guid>
+            <pubDate>Mon, 21 Jun 2021 12:44:56 GMT</pubDate>
+            <description><![CDATA[...]]></description>
         </item>
     </channel>
 </rss>
