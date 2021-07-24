@@ -8,7 +8,7 @@ location: tw
 ---
 
 # 需求描述 :
- 微服務需要個別開啟的時候，可以透過已下指令於Ternimal執行，快速開啟多個終端機和頁籤。
+ 微服務需要個別開啟的時候，可以透過以下指令於Ternimal執行，快速開啟多個終端機和頁籤。
 
 ```sh
 wt --title 訂單服務 -p Order --tabColor "#009999" -d D:\proj\Order --suppressApplicationTitle ; 
@@ -23,6 +23,6 @@ wt new-tab --title WebApi -p WebApi --tabColor "#FF0080" -d D:\proj\WebAPI --sup
 - `--suppressApplicationTitle` 防止改變TAB名稱 
 - `--tabColor "#FF0080"` 設定TAB顏色
 
-# 效果如下
+# 效果如下 :
 
 ![image](https://user-images.githubusercontent.com/53833171/126865171-106262b7-ff46-4024-8513-0e17c60a2594.png)
