@@ -2,7 +2,7 @@
 title: 【py】 Lambda in Python  
 date: 2021-07-24
 tags: 
-  - cicd
+  - py
 author: iewihc
 location: tw  
 ---
