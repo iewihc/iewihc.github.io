@@ -1,3 +1,7 @@
+![example workflow](https://github.com/iewihc/iewihc.github.io/actions/workflows/main.yml/badge.svg)
+
+
+
 # @vuepress/theme-blog1213
 
 [![NPM version](https://badgen.net/npm/v/@vuepress/theme-blog)](https://npmjs.com/package/@vuepress/theme-blog) [![NPM downloads](https://badgen.net/npm/dm/@vuepress/theme-blog)](https://npmjs.com/package/@vuepress/theme-blog)

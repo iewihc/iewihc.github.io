@@ -62,6 +62,5 @@ jobs:
             我的 repository: ${{ github.repository }}.已成功上傳
             https://iewihc.github.io/
             .
-          # image_url: 'https://raw.githubusercontent.com/louis70109/line-notify-action/master/tests/image1.png'
-          sticker_id: 1
-          package_id: 1
+          image_url: 'https://user-images.githubusercontent.com/53833171/131245505-513ef727-d1d1-4fe9-b90e-acc6ad64b691.png'
+
