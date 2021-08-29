@@ -60,5 +60,6 @@ jobs:
           message: |
             觸發 ${{ github.event_name }} event.
             Repository: 【${{ github.repository }}】.已成功上傳
+            Commit Msg : ${{ github.event.head_commit.message }}
           image_url: 'https://user-images.githubusercontent.com/53833171/131245738-488b9dae-908d-4767-9ab6-94d096b87a1f.png'
 
