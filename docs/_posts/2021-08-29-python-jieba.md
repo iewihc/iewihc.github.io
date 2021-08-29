@@ -41,8 +41,6 @@ e.g. 文字情緒分析
 
 
 
-> ref [CKIP Lab 中文詞知識小組](https://ckip.iis.sinica.edu.tw/demo)
-
 # 斷詞
 
 `詞`為句子的最小單位，理解為將雞蛋（詞）放到不同的籃子裡。可以實作機器翻譯、語言分析（語意）、情感偵測等等。
@@ -93,10 +91,53 @@ e.g. 文字情緒分析
 > 5. 校服上除了校徽別別別的，讓你們別別別的別別別的你非得別別的！
 > 6. 吃檸檬吧檸檬熟了酸爆
 
+![image](https://user-images.githubusercontent.com/53833171/131243357-5cb5b87f-744a-4540-9be6-b934fed9396b.png)
 
 
+![image](https://user-images.githubusercontent.com/53833171/131243373-129bba23-16be-4069-8fd6-8b45f3122047.png)
 
 
+# 程式範例
+```py
+import jieba
+
+samples = ["今天下雨我騎車差點摔倒了好在我一把把把住了","吃檸檬吧檸檬熟了酸爆"]
+
+print("---精準模式")
+for sentence in samples:
+    seg_list = jieba.cut(sentence)
+    print('/'.join(seg_list))
+print("---")
+
+print("---全模式")
+for sentence in samples:
+    seg_list = jieba.cut(sentence,cut_all=True)
+    print('/'.join(seg_list))
+print("---")
+
+
+print("---搜尋引擎模式")
+for sentence in samples:
+    seg_list = jieba.cut_for_search(sentence)
+    print('/'.join(seg_list))
+print("---")
+
+# 預期"陳其邁"，但被切分為"陳/其邁"了
+news ="感謝陳其邁副院長費心督導，對於年假期間各防疫機關人員的堅守崗位，也表示肯定與感謝。"
+seg_list = jieba.cut(news)
+print('/'.join(seg_list))
+# 感謝/陳/其邁/副/院長/費心督導/，/對/於/年/假期/間/各/防疫/機關/人員/的/堅守崗位/，/也/表示/肯定/與/感謝/。
+
+# 載入字典
+jieba.load_userdict('sample/userdict.txt')
+seg_list = jieba.cut(news)
+print('/'.join(seg_list))
+# 感謝/陳其邁/副/院長/費心督導/，/對/於/年/假期/間/各/防疫/機關/人員/的/堅守崗位/，/也/表示/肯定/與/感謝/。
+```
+
+
+# Ref
 
 [如何使用 jieba 結巴中文分詞程式
 ](https://blog.fukuball.com/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-jieba-%E7%B5%90%E5%B7%B4%E4%B8%AD%E6%96%87%E5%88%86%E8%A9%9E%E7%A8%8B%E5%BC%8F/)
+[CKIP Lab 中文詞知識小組](https://ckip.iis.sinica.edu.tw/demo)
