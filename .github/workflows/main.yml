@@ -53,3 +53,15 @@ jobs:
           BRANCH: gh-pages
           #  The deployment directory is  VuePress  The default output directory for
           FOLDER: docs/.vuepress/dist
+      - name: Send default message
+        uses: louis70109/line-notify-action@master
+        with:
+          token: ${{ secrets.LINE_NOTIFY_TOKEN }}
+          message: |
+            The job was automatically triggered by a ${{ github.event_name }} event.
+            我的 repository: ${{ github.repository }}.已成功上傳
+            https://iewihc.github.io/
+            .
+          # image_url: 'https://raw.githubusercontent.com/louis70109/line-notify-action/master/tests/image1.png'
+          sticker_id: 1
+          package_id: 1
