@@ -58,9 +58,7 @@ jobs:
         with:
           token: ${{ secrets.LINE_NOTIFY_TOKEN }}
           message: |
-            The job was automatically triggered by a ${{ github.event_name }} event.
-            我的 repository: ${{ github.repository }}.已成功上傳
-            https://iewihc.github.io/
-            .
-          image_url: 'https://user-images.githubusercontent.com/53833171/131245505-513ef727-d1d1-4fe9-b90e-acc6ad64b691.png'
+            觸發 ${{ github.event_name }} event.
+            Repository: 【${{ github.repository }}】.已成功上傳
+          image_url: 'https://user-images.githubusercontent.com/53833171/131245738-488b9dae-908d-4767-9ab6-94d096b87a1f.png'
 
