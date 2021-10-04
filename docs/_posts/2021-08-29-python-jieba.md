@@ -143,3 +143,8 @@ print('/'.join(seg_list))
 ](https://blog.fukuball.com/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-jieba-%E7%B5%90%E5%B7%B4%E4%B8%AD%E6%96%87%E5%88%86%E8%A9%9E%E7%A8%8B%E5%BC%8F/)
 
 [CKIP Lab 中文詞知識小組](https://ckip.iis.sinica.edu.tw/demo)
+
+
+# End 
+
+--- 
