@@ -4,7 +4,7 @@
         <title>Iewihc Blog</title>
         <link>https://example.vuepress-theme-blog.ulivz.com/</link>
         <description>This is a blog example built by VuePress</description>
-        <lastBuildDate>Tue, 12 Oct 2021 08:07:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Mar 2022 13:51:30 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <item>
@@ -30,6 +30,23 @@ CD PIPLINE
   PRODUCTION ...]]></description>
         </item>
         <item>
+            <title><![CDATA[【CI/CD】 四、DOCKER－安裝和簡介]]></title>
+            <link>https://example.vuepress-theme-blog.ulivz.com/2018/11/07/docker-install/</link>
+            <guid>https://example.vuepress-theme-blog.ulivz.com/2018/11/07/docker-install/</guid>
+            <pubDate>Wed, 07 Nov 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[https://www.docker.com/products/docker-desktop
+
+Image與Container
+  運行後可以產生多個Container容器
+  Image是模板，後續產生的Container都計成於此。
+
+  Image類似系統安裝的CD，Container則是安裝出來的系統
+
+Portainer的安裝
+
+https://www.portainer. ...]]></description>
+        </item>
+        <item>
             <title><![CDATA[The Command Line]]></title>
             <link>https://example.vuepress-theme-blog.ulivz.com/2018/11/07/cmd-intro/</link>
             <guid>https://example.vuepress-theme-blog.ulivz.com/2018/11/07/cmd-intro/</guid>
@@ -46,23 +63,6 @@ CD PIPLINE
 2.``
 
 ``表示裡面的元素(參數、值或信息）是必需的。 您需要用相應的信 ...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[【CI/CD】 四、DOCKER－安裝和簡介]]></title>
-            <link>https://example.vuepress-theme-blog.ulivz.com/2018/11/07/docker-install/</link>
-            <guid>https://example.vuepress-theme-blog.ulivz.com/2018/11/07/docker-install/</guid>
-            <pubDate>Wed, 07 Nov 2018 00:00:00 GMT</pubDate>
-            <description><![CDATA[https://www.docker.com/products/docker-desktop
-
-Image與Container
-  運行後可以產生多個Container容器
-  Image是模板，後續產生的Container都計成於此。
-
-  Image類似系統安裝的CD，Container則是安裝出來的系統
-
-Portainer的安裝
-
-https://www.portainer. ...]]></description>
         </item>
         <item>
             <title><![CDATA[【CI/CD】 一、Docker－簡介]]></title>
@@ -254,8 +254,8 @@ e.g. 語意查詢
         </item>
         <item>
             <title><![CDATA[【dotnet】EF Core]]></title>
-            <link>https://example.vuepress-theme-blog.ulivz.com/2018/11/07/ef-core/</link>
-            <guid>https://example.vuepress-theme-blog.ulivz.com/2018/11/07/ef-core/</guid>
+            <link>https://example.vuepress-theme-blog.ulivz.com/2018/11/07/ef-core-copy/</link>
+            <guid>https://example.vuepress-theme-blog.ulivz.com/2018/11/07/ef-core-copy/</guid>
             <pubDate>Wed, 07 Nov 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[1.Tools
 dotnet add package Microsoft.EntityFrameworkCore.Tools --version 5.0.6
@@ -265,6 +265,21 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools --version 5.0.6
 SqlServer
 
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.6 ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【Aus】有「勇」無謀－出發篇]]></title>
+            <link>https://example.vuepress-theme-blog.ulivz.com/2022/03/15/australia/</link>
+            <guid>https://example.vuepress-theme-blog.ulivz.com/2022/03/15/australia/</guid>
+            <pubDate>Tue, 15 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[2022年2月，無視疫情的前往袋鼠國，趁著過年的尾聲，於熱鬧結束時飛行，也許那樣更加的能夠沒遺憾或者不會後悔自己所做的決定。
+
+我會說是「還債」，同時對不起我的英文老師，至從做了Programming相關的工作後接觸到英文，也是最直接能夠吸收知識、新技術的資訊。
+
+本人我大學荒誕的蹺課，高中一箱箱的啤酒都成了過去，台灣的朋友以及家人確實是最難痛下出國決定的。
+
+人生嘛，三十而立，三十歲之後如果 ...]]></description>
+            <enclosure url="https://user-images.githubusercontent.com/53833171/158388855-0b9c1067-1f69-446c-be9d-2e30a8a07d32.png">
+            </enclosure>
         </item>
     </channel>
 </rss>
